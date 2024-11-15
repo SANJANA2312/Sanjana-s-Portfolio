@@ -33,3 +33,27 @@ figure img {
     height: 7.5rem;
     width: auto;
 }
+
+table,th,td {
+    border: 1px solid #000;
+
+}
+nav {
+    display: flex;
+    gap: 1rem;
+    
+}
+nav a {
+    text-decoration: none;
+    color: lightcoral;
+    border: 1px solid lightcoral;
+    padding: 5px;
+}
+nav a:hover {
+    color: darkcyan;
+    border-color: darkcyan;
+}
+#contact p {
+    text-align: center;
+    
+}
