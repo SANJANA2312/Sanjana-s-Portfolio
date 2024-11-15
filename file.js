@@ -1,3 +1,3 @@
-
-const footerEnd = document.getElementById ('footer');
-footerEnd.innerHTML = `&copy; ${new Date ().getFullYear ()} Sanjana`;
+// current year displayed in footer
+const footer = document.getElementById("footer_Year");
+footerYear.innerHTML = `&copy; ${new Date ().getFullYear ()} Sanjana`;
