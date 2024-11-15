@@ -1,0 +1,17 @@
+/* Color added for body text and background */
+body {
+    font-family: 'Roboto' , sans-serif;
+    background: #fffacd;
+    color: #36529e;
+    height: auto;
+    width: auto;
+    line-height: 1.8;
+    padding: 1rem;
+}
+/* Heading of each section */
+h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+}
