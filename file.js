@@ -20,3 +20,17 @@ else {
      greeting.innerText = "Good Evening!, Welcome to my portfolio."
     greeting.className = "evening"
 }
+
+
+const btn = document.getElementById ("btn-alert")
+btn.innerText = "Click Here"
+btn.onmouseover = function() {
+    btn.innerText = "Smile Please"
+}
+
+btn.onmouseout = function() {
+    btn.innerText = "Click Here"
+}
+btn.onclick = function() {
+    alert("Always trust the Almighty! and stay hydrated.")
+}
