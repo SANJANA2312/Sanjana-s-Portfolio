@@ -15,4 +15,5 @@ After learning CSS , I added the border to the table, highlighted my logo, highl
 
 Using Js I created the button , the greeting that the website shows changes according to time and added the ordered list.
 
-Last but not the least, Health is wealth! Stay hydrated, Take care. :slightly_smiling_face:
+Last but not the least, Health is wealth! Stay hydrated, Take care. :slightly_smiling_face: (github emoji cheatsheet google)
+
