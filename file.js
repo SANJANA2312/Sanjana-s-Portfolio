@@ -1,4 +1,4 @@
-// document.getElementById("unique_identifier").innerHTML = content
+
 const footer = document.getElementById ("footer");
 footer.innerHTML = `&copy; ${new Date ().getFullYear ()} Sanjana`;
 
@@ -6,7 +6,7 @@ footer.innerHTML = `&copy; ${new Date ().getFullYear ()} Sanjana`;
 const date=new Date ()
 console.log ("Today's date",date );
 
-const hour=date.getFullYear()
+const hour=date.getHours()
 const greeting = document.getElementById ("portfolio-title")
 if (hour < 12) {
     greeting.innerText = "Good Morning!, Welcome to my portfolio."
