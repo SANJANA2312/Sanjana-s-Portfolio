@@ -15,7 +15,7 @@ if (hour < 12) {
 else if (hour < 17) {
     greeting.innerText = "Good Afternoon!, Welcome to my portfolio."
     greeting.className = "afternoon"
-} 
+}                                                                   
 else {
      greeting.innerText = "Good Evening!, Welcome to my portfolio."
     greeting.className = "evening"
