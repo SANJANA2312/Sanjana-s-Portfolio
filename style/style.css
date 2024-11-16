@@ -55,5 +55,28 @@ nav a:hover {
 }
 #contact p {
     text-align: center;
-    
+
 }
+footer {
+    text-align: center;
+}
+
+.morning {
+    color: rgb(239, 191, 103);
+
+}
+.evening {
+    color: rgb(183, 225, 97);
+}
+.afternoon {
+    color: rgb(246, 83, 83);
+}
+
+@media (width <= 768px) {
+    .portfolio_screenshot {
+        height: 500px;
+        width: 500px;
+        max-width: 90%;
+     
+    } 
+ }
