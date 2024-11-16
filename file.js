@@ -36,7 +36,7 @@ btn.onclick = function() {
 }
 
 const orderedlist = document.getElementById ("numbers")
-for (let i = 1; i <= 12 ; i++) { //more efficient syntax for incrementing the counter variable in loop
+for (let i = 1; i <= 12 ; i++) { // bonus: more efficient syntax for incrementing the counter variable in loop
     const listitem = document.createElement("li")
     if (i% 2 == 0) {
         listitem.innerText = "even"
